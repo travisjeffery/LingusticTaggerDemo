@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		328BD17C1869405600E7CA32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328BD17B1869405600E7CA32 /* Foundation.framework */; };
+		328BD17E1869405600E7CA32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328BD17D1869405600E7CA32 /* CoreGraphics.framework */; };
+		328BD1801869405600E7CA32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328BD17F1869405600E7CA32 /* UIKit.framework */; };
+		328BD1861869405600E7CA32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 328BD1841869405600E7CA32 /* InfoPlist.strings */; };
+		328BD1881869405600E7CA32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 328BD1871869405600E7CA32 /* main.m */; };
+		328BD18C1869405600E7CA32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 328BD18B1869405600E7CA32 /* AppDelegate.m */; };
+		328BD18F1869405600E7CA32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328BD18D1869405600E7CA32 /* Main.storyboard */; };
+		328BD1921869405600E7CA32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328BD1911869405600E7CA32 /* ViewController.m */; };
+		328BD1941869405600E7CA32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328BD1931869405600E7CA32 /* Images.xcassets */; };
+		328BD19B1869405600E7CA32 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328BD19A1869405600E7CA32 /* XCTest.framework */; };
+		328BD19C1869405600E7CA32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328BD17B1869405600E7CA32 /* Foundation.framework */; };
+		328BD19D1869405600E7CA32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328BD17F1869405600E7CA32 /* UIKit.framework */; };
+		328BD1A51869405600E7CA32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 328BD1A31869405600E7CA32 /* InfoPlist.strings */; };
+		328BD1A71869405600E7CA32 /* LingusticTaggerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 328BD1A61869405600E7CA32 /* LingusticTaggerDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		328BD19E1869405600E7CA32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 328BD1701869405600E7CA32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 328BD1771869405600E7CA32;
+			remoteInfo = LingusticTaggerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		328BD1781869405600E7CA32 /* LingusticTaggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LingusticTaggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		328BD17B1869405600E7CA32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		328BD17D1869405600E7CA32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		328BD17F1869405600E7CA32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		328BD1831869405600E7CA32 /* LingusticTaggerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LingusticTaggerDemo-Info.plist"; sourceTree = "<group>"; };
+		328BD1851869405600E7CA32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		328BD1871869405600E7CA32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		328BD1891869405600E7CA32 /* LingusticTaggerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LingusticTaggerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		328BD18A1869405600E7CA32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		328BD18B1869405600E7CA32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		328BD18E1869405600E7CA32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		328BD1901869405600E7CA32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		328BD1911869405600E7CA32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		328BD1931869405600E7CA32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		328BD1991869405600E7CA32 /* LingusticTaggerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LingusticTaggerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		328BD19A1869405600E7CA32 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		328BD1A21869405600E7CA32 /* LingusticTaggerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LingusticTaggerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		328BD1A41869405600E7CA32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		328BD1A61869405600E7CA32 /* LingusticTaggerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LingusticTaggerDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		328BD1751869405600E7CA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328BD17E1869405600E7CA32 /* CoreGraphics.framework in Frameworks */,
+				328BD1801869405600E7CA32 /* UIKit.framework in Frameworks */,
+				328BD17C1869405600E7CA32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328BD1961869405600E7CA32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328BD19B1869405600E7CA32 /* XCTest.framework in Frameworks */,
+				328BD19D1869405600E7CA32 /* UIKit.framework in Frameworks */,
+				328BD19C1869405600E7CA32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328BD16F1869405600E7CA32 = {
+			isa = PBXGroup;
+			children = (
+				328BD1811869405600E7CA32 /* LingusticTaggerDemo */,
+				328BD1A01869405600E7CA32 /* LingusticTaggerDemoTests */,
+				328BD17A1869405600E7CA32 /* Frameworks */,
+				328BD1791869405600E7CA32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		328BD1791869405600E7CA32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				328BD1781869405600E7CA32 /* LingusticTaggerDemo.app */,
+				328BD1991869405600E7CA32 /* LingusticTaggerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		328BD17A1869405600E7CA32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				328BD17B1869405600E7CA32 /* Foundation.framework */,
+				328BD17D1869405600E7CA32 /* CoreGraphics.framework */,
+				328BD17F1869405600E7CA32 /* UIKit.framework */,
+				328BD19A1869405600E7CA32 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		328BD1811869405600E7CA32 /* LingusticTaggerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				328BD18A1869405600E7CA32 /* AppDelegate.h */,
+				328BD18B1869405600E7CA32 /* AppDelegate.m */,
+				328BD18D1869405600E7CA32 /* Main.storyboard */,
+				328BD1901869405600E7CA32 /* ViewController.h */,
+				328BD1911869405600E7CA32 /* ViewController.m */,
+				328BD1931869405600E7CA32 /* Images.xcassets */,
+				328BD1821869405600E7CA32 /* Supporting Files */,
+			);
+			path = LingusticTaggerDemo;
+			sourceTree = "<group>";
+		};
+		328BD1821869405600E7CA32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				328BD1831869405600E7CA32 /* LingusticTaggerDemo-Info.plist */,
+				328BD1841869405600E7CA32 /* InfoPlist.strings */,
+				328BD1871869405600E7CA32 /* main.m */,
+				328BD1891869405600E7CA32 /* LingusticTaggerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		328BD1A01869405600E7CA32 /* LingusticTaggerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				328BD1A61869405600E7CA32 /* LingusticTaggerDemoTests.m */,
+				328BD1A11869405600E7CA32 /* Supporting Files */,
+			);
+			path = LingusticTaggerDemoTests;
+			sourceTree = "<group>";
+		};
+		328BD1A11869405600E7CA32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				328BD1A21869405600E7CA32 /* LingusticTaggerDemoTests-Info.plist */,
+				328BD1A31869405600E7CA32 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		328BD1771869405600E7CA32 /* LingusticTaggerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 328BD1AA1869405600E7CA32 /* Build configuration list for PBXNativeTarget "LingusticTaggerDemo" */;
+			buildPhases = (
+				328BD1741869405600E7CA32 /* Sources */,
+				328BD1751869405600E7CA32 /* Frameworks */,
+				328BD1761869405600E7CA32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LingusticTaggerDemo;
+			productName = LingusticTaggerDemo;
+			productReference = 328BD1781869405600E7CA32 /* LingusticTaggerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		328BD1981869405600E7CA32 /* LingusticTaggerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 328BD1AD1869405600E7CA32 /* Build configuration list for PBXNativeTarget "LingusticTaggerDemoTests" */;
+			buildPhases = (
+				328BD1951869405600E7CA32 /* Sources */,
+				328BD1961869405600E7CA32 /* Frameworks */,
+				328BD1971869405600E7CA32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				328BD19F1869405600E7CA32 /* PBXTargetDependency */,
+			);
+			name = LingusticTaggerDemoTests;
+			productName = LingusticTaggerDemoTests;
+			productReference = 328BD1991869405600E7CA32 /* LingusticTaggerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		328BD1701869405600E7CA32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Travis Jeffery";
+				TargetAttributes = {
+					328BD1981869405600E7CA32 = {
+						TestTargetID = 328BD1771869405600E7CA32;
+					};
+				};
+			};
+			buildConfigurationList = 328BD1731869405600E7CA32 /* Build configuration list for PBXProject "LingusticTaggerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 328BD16F1869405600E7CA32;
+			productRefGroup = 328BD1791869405600E7CA32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				328BD1771869405600E7CA32 /* LingusticTaggerDemo */,
+				328BD1981869405600E7CA32 /* LingusticTaggerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		328BD1761869405600E7CA32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328BD1941869405600E7CA32 /* Images.xcassets in Resources */,
+				328BD1861869405600E7CA32 /* InfoPlist.strings in Resources */,
+				328BD18F1869405600E7CA32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328BD1971869405600E7CA32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328BD1A51869405600E7CA32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		328BD1741869405600E7CA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328BD1921869405600E7CA32 /* ViewController.m in Sources */,
+				328BD18C1869405600E7CA32 /* AppDelegate.m in Sources */,
+				328BD1881869405600E7CA32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328BD1951869405600E7CA32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328BD1A71869405600E7CA32 /* LingusticTaggerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		328BD19F1869405600E7CA32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 328BD1771869405600E7CA32 /* LingusticTaggerDemo */;
+			targetProxy = 328BD19E1869405600E7CA32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		328BD1841869405600E7CA32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				328BD1851869405600E7CA32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		328BD18D1869405600E7CA32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				328BD18E1869405600E7CA32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		328BD1A31869405600E7CA32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				328BD1A41869405600E7CA32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		328BD1A81869405600E7CA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		328BD1A91869405600E7CA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		328BD1AB1869405600E7CA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LingusticTaggerDemo/LingusticTaggerDemo-Prefix.pch";
+				INFOPLIST_FILE = "LingusticTaggerDemo/LingusticTaggerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		328BD1AC1869405600E7CA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LingusticTaggerDemo/LingusticTaggerDemo-Prefix.pch";
+				INFOPLIST_FILE = "LingusticTaggerDemo/LingusticTaggerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		328BD1AE1869405600E7CA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LingusticTaggerDemo.app/LingusticTaggerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LingusticTaggerDemo/LingusticTaggerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LingusticTaggerDemoTests/LingusticTaggerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		328BD1AF1869405600E7CA32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LingusticTaggerDemo.app/LingusticTaggerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LingusticTaggerDemo/LingusticTaggerDemo-Prefix.pch";
+				INFOPLIST_FILE = "LingusticTaggerDemoTests/LingusticTaggerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		328BD1731869405600E7CA32 /* Build configuration list for PBXProject "LingusticTaggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328BD1A81869405600E7CA32 /* Debug */,
+				328BD1A91869405600E7CA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		328BD1AA1869405600E7CA32 /* Build configuration list for PBXNativeTarget "LingusticTaggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328BD1AB1869405600E7CA32 /* Debug */,
+				328BD1AC1869405600E7CA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		328BD1AD1869405600E7CA32 /* Build configuration list for PBXNativeTarget "LingusticTaggerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328BD1AE1869405600E7CA32 /* Debug */,
+				328BD1AF1869405600E7CA32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 328BD1701869405600E7CA32 /* Project object */;
+}
